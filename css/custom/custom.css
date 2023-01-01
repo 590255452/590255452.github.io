@@ -1,7 +1,125 @@
+/*诗词的背景框*/
 div.h2 {
   display: inline-block;
   width: auto;
-  background-color: rgba(0,0,0,.5);
-  padding: 10px 5px;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10px;
   border-radius: 10px;
+}
+
+/*滚动箭头*/
+#scroll-top-button {
+  border-radius: 50%;
+
+}
+
+#scroll-top-button i {
+  color: #6c5ce7;
+}
+
+#scroll-top-button:hover {
+  background-color: #6c5ce7;
+}
+
+#scroll-top-button:hover i {
+  color: white;
+}
+
+
+/*滚动条颜色*/
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, .1);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 120, 231, .5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background-color: rgba(0, 120, 231, .3)
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 120, 231, .7)
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 120, 231, .9)
+}
+
+
+/*表格样式优化*/
+.table-container {
+  overflow: auto;
+  margin-bottom: 16px;
+}
+
+/* Avoid affecting the style of codeblock */
+.markdown-body .table-container table {
+  display: table !important;
+  margin-bottom: 0 !important;
+}
+
+
+/*首行缩进*/
+p {
+  text-indent: 2em;
+}
+li > p {
+  text-indent: 0;
+}
+
+/*代码框折叠*/
+table {
+  padding: 0;
+  word-break: initial;
+  overflow-x: auto;
+  max-height: 40em;
+  overflow-y: auto !important;
+}
+
+
+/*加宽文章显示框(向左偏移)，待定*/
+.col-lg-8.nopadding-x-md > .container.nopadding-x-md > #board.py-5 {
+  width: 123%;
+  left: -23%;
+}
+@media (max-width: 767px) {
+  .col-lg-8.nopadding-x-md > .container.nopadding-x-md > #board.py-5 {
+    width: 100%;
+    left: 0;
+  }
+}
+@media (max-width: 424px) {
+  .col-lg-8.nopadding-x-md > .container.nopadding-x-md > #board.py-5 {
+    width: 100%;
+    left: 0;
+  }
+}
+
+
+/*强调目录颜色*/
+.tocbot-active-link {
+  font-weight: bold;
+  color_var(--link-hover-color);
+  /*color: #800000;*/
+  padding: 5px;
+  background: #FA807233;
+  border-radius: 3px;
+}
+.toc-list-item::before {
+  background: #800000;
+}
+
+/*代码块边角*/
+figure.highlight.javascript table {
+  border-radius: 0 0 4px 4px;
 }
