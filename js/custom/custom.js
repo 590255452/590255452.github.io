@@ -158,11 +158,11 @@ cursorSpecialEffects.init()
 const ap = new APlayer({
   container: document.getElementById('aplayer'),
   order: 'random',
+  preload: 'metadata',
   loop: 'all',
   lrcType: 3,
   volume: 0.5,
-  mutex: true,
-  listFolded: false,
+  listFolded: true,
   listMaxHeight: 90,
   audio: [
     {
