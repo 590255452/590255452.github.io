@@ -5,8 +5,8 @@
   
   <entry>
     <title>draft</title>
-    <link href="/abbrlink"/>
-    <url>/abbrlink</url>
+    <link href="/posts/undefined/"/>
+    <url>/posts/undefined/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -18,8 +18,8 @@
   
   <entry>
     <title>four</title>
-    <link href="/abbrlink"/>
-    <url>/abbrlink</url>
+    <link href="/posts/8328/"/>
+    <url>/posts/8328/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>three</title>
-    <link href="/abbrlink"/>
-    <url>/abbrlink</url>
+    <link href="/posts/3047/"/>
+    <url>/posts/3047/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>two</title>
-    <link href="/abbrlink"/>
-    <url>/abbrlink</url>
+    <link href="/posts/50727/"/>
+    <url>/posts/50727/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -57,8 +57,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="/abbrlink"/>
-    <url>/abbrlink</url>
+    <link href="/posts/16107/"/>
+    <url>/posts/16107/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -70,8 +70,8 @@
   
   <entry>
     <title>我是第一个</title>
-    <link href="/abbrlink"/>
-    <url>/abbrlink</url>
+    <link href="/posts/37091/"/>
+    <url>/posts/37091/</url>
     
     <content type="html"><![CDATA[<h1 id="最近"><a href="#最近" class="headerlink" title="最近"></a>最近</h1><h2 id="最快明白"><a href="#最快明白" class="headerlink" title="最快明白"></a>最快明白</h2><p>最近项目在开发取图和显示模块，因为我用的QT+Halcon，所以需要将相机Buffer转换成Hobject处理，然后Hobject需要转换成QImage，QImage转换成QPixmap进行显示<br>图像内存转换的资料网上很多，但是我发现大多数人都忽略了一个图像对齐的问题，对齐其实就是图像宽度是4的整数倍</p><p>1、相机Buffer出来的内存一般是不考虑对齐的，我用过的AVI Basler 海康 大华都是这样<br>2、HObject也是不要考虑对齐的，所有相机buffer转hobject就很简单，黑白图像为例：<br>Front-matter</p><p class="note note-primary">便签</p><span class="label label-primary">标签</span><a class="btn" href="url" title="title">按钮</a><link rel="stylesheet" href="/dist/APlayer.min.css"><div id="aplayer" style="border-radius: 5px"></div><script type="text/javascript" src="/dist/APlayer.min.js"></script><script type="text/javascript" src="/js/custom/custom.js"></script><p><img src="/img/fluid.png" alt="sdfs"></p><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#6c5ce7","hotkey":true,"preload":"meatadata","volume":0.5,"video":{"url":"http://www.nenu.edu.cn/_upload/article/videos/03/5f/7c999eed42e3aadc413d7f851f0e/0f50b3eb-9285-41d2-ac4d-6cc363651aad_B.mp4","pic":"/img/amaqi.jpeg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">let</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;http&#x27;</span>);     <span class="hljs-comment">//导入http|https，具体看接口的协议</span><br><span class="hljs-keyword">let</span> port = <span class="hljs-number">8082</span>;<br><span class="hljs-keyword">let</span> hostname = <span class="hljs-string">&#x27;127.0.0.1&#x27;</span>;<br><span class="hljs-keyword">let</span> datas = <span class="hljs-string">&#x27;&#x27;</span>;<br><span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;fs&#x27;</span>);<br><br><br><span class="hljs-comment">//请求客户端数据，响应客户端数据</span><br><span class="hljs-keyword">const</span> server = http.<span class="hljs-title function_">createServer</span>(<span class="hljs-function">(<span class="hljs-params">request, response</span>) =&gt;</span> &#123;<br>    <span class="hljs-keyword">if</span> (request.<span class="hljs-property">url</span> != <span class="hljs-string">&#x27;/favicon.ico&#x27;</span>) &#123;<br>        response.<span class="hljs-title function_">setHeader</span>(<span class="hljs-string">&#x27;Access-Control-Allow-Origin&#x27;</span>, <span class="hljs-string">&#x27;*&#x27;</span>);<br>        response.<span class="hljs-title function_">writeHead</span>(<span class="hljs-number">200</span>, &#123; <span class="hljs-string">&#x27;Content-Type&#x27;</span>: <span class="hljs-string">&#x27;application/json;charset=utf-8&#x27;</span> &#125;);            <span class="hljs-comment">//草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草草</span><br><br><br>        <span class="hljs-comment">//设置请求……</span><br>        request.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#x27;data&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">chunk</span>) =&gt;</span> &#123;       <span class="hljs-comment">//服务器接收到的post数据</span><br>            data += chunk.<span class="hljs-title function_">toString</span>();<br>        &#125;);<br>        request.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#x27;end&#x27;</span>, <span class="hljs-function">() =&gt;</span> &#123;<br>            <span class="hljs-comment">//读取</span><br>            fs.<span class="hljs-title function_">readFile</span>(__dirname+<span class="hljs-string">&#x27;/linshi.json&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">err, data</span>)=&gt;</span>&#123;<br>                <span class="hljs-comment">// if</span><br>                <span class="hljs-keyword">let</span> poetry = <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">parse</span>(data.<span class="hljs-title function_">toString</span>());<br>                <span class="hljs-keyword">let</span> rand = <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>()*(poetry.<span class="hljs-property">poetry</span>.<span class="hljs-property">length</span>));<br>                poetry.<span class="hljs-property">poetry</span> = poetry.<span class="hljs-property">poetry</span>[rand];<br>                datas = <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(poetry);<br>                <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(datas);<br>            &#125;)<br>            <span class="hljs-comment">// response.write(&#x27;数据接收完成&#x27;);</span><br>            response.<span class="hljs-title function_">end</span>(datas);               <span class="hljs-comment">//结束请求，必须写</span><br>        &#125;)<br>        request.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#x27;close&#x27;</span>, <span class="hljs-function">() =&gt;</span> &#123;<br>            <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&quot;服务已关闭，在response.end()后&quot;</span>);<br>        &#125;)<br>        request.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#x27;error&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> &#123;<br>            <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(err.<span class="hljs-property">message</span>);<br>        &#125;)<br>    &#125;<br>&#125;)<br><br>server.<span class="hljs-title function_">listen</span>(port, hostname, <span class="hljs-function">() =&gt;</span> &#123;           <span class="hljs-comment">//port&gt;1023即可</span><br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Server running at http://<span class="hljs-subst">$&#123;hostname&#125;</span>:<span class="hljs-subst">$&#123;port&#125;</span>`</span>);<br>&#125;)<br>server.<span class="hljs-title function_">close</span>(<span class="hljs-function">() =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Server stopped at http://<span class="hljs-subst">$&#123;hostname&#125;</span>:<span class="hljs-subst">$&#123;port&#125;</span>`</span>);<br>&#125;)<br>server.<span class="hljs-title function_">on</span>(<span class="hljs-string">&#x27;error&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(err.<span class="hljs-property">message</span>);<br>&#125;)<br></code></pre></td></tr></table></figure><p id="hitokoto">:D 获取中...</p>]]></content>
     
