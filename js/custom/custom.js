@@ -1,7 +1,7 @@
 class Circle {
-  constructor({ origin, speed, color, angle, context }) {
+  constructor({origin, speed, color, angle, context}) {
     this.origin = origin
-    this.position = { ...this.origin }
+    this.position = {...this.origin}
     this.color = color
     this.speed = speed
     this.angle = angle
@@ -24,7 +24,7 @@ class Circle {
 }
 
 class Boom {
-  constructor ({ origin, context, circleCount = 16, area }) {
+  constructor({origin, context, circleCount = 16, area}) {
     this.origin = origin
     this.context = context
     this.circleCount = circleCount
@@ -49,7 +49,7 @@ class Boom {
   }
 
   init() {
-    for(let i = 0; i < this.circleCount; i++) {
+    for (let i = 0; i < this.circleCount; i++) {
       const circle = new Circle({
         context: this.context,
         origin: this.origin,
@@ -95,7 +95,7 @@ class CursorSpecialEffects {
 
   handleMouseDown(e) {
     const boom = new Boom({
-      origin: { x: e.clientX, y: e.clientY },
+      origin: {x: e.clientX, y: e.clientY},
       context: this.computerContext,
       area: {
         width: this.globalWidth,
@@ -152,3 +152,32 @@ class CursorSpecialEffects {
 
 const cursorSpecialEffects = new CursorSpecialEffects()
 cursorSpecialEffects.init()
+
+
+//Aplayer
+const ap = new APlayer({
+  container: document.getElementById('aplayer'),
+  order: 'random',
+  loop: 'all',
+  lrcType: 3,
+  volume: 0.5,
+  mutex: true,
+  listFolded: false,
+  listMaxHeight: 90,
+  audio: [
+    {
+      name: "Time",
+      artist: 'MKJ',
+      url: 'http://music.163.com/song/media/outer/url?id=33035611.mp3',
+      cover: 'http://p1.music.126.net/lJ026dYsRXj7xewcymRWCw==/109951167869358342.jpg?param=300x300',
+      lrc: '/dist/lrc/Time (Official)-MKJ.lrc',
+    },
+    {
+      name: "窗",
+      artist: '虎二',
+      url: 'http://music.163.com/song/media/outer/url?id=1847250546.mp3',
+      cover: 'http://p1.music.126.net/CJAjJcG4N0_tSww1CX9k_w==/109951166004493776.jpg?param=300x300',
+      lrc: '/dist/lrc/窗-虎二.lrc'
+    }
+  ],
+});

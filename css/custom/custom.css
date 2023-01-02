@@ -73,6 +73,7 @@ div.h2 {
 p {
   text-indent: 2em;
 }
+
 li > p {
   text-indent: 0;
 }
@@ -92,12 +93,14 @@ table {
   width: 123%;
   left: -23%;
 }
+
 @media (max-width: 767px) {
   .col-lg-8.nopadding-x-md > .container.nopadding-x-md > #board.py-5 {
     width: 100%;
     left: 0;
   }
 }
+
 @media (max-width: 424px) {
   .col-lg-8.nopadding-x-md > .container.nopadding-x-md > #board.py-5 {
     width: 100%;
@@ -109,12 +112,13 @@ table {
 /*强调目录颜色*/
 .tocbot-active-link {
   font-weight: bold;
-  color_var(--link-hover-color);
+color_var(--link-hover-color);
   /*color: #800000;*/
   padding: 5px;
   background: #FA807233;
-  border-radius: 3px;
+  border-radius: 5px;
 }
+
 .toc-list-item::before {
   background: #800000;
 }
@@ -123,3 +127,14 @@ table {
 figure.highlight.javascript table {
   border-radius: 0 0 4px 4px;
 }
+
+
+/*搜索样式*/
+.modal-dialog.modal-dialog-scrollable.modal-lg .modal-content {
+  border-radius: 10px;
+}
+
+.modal-dialog.modal-dialog-scrollable.modal-lg .modal-header.text-center {
+  display: none;
+}
+
